@@ -1,0 +1,13 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"github": {
+		"silent": true
+	},
+	"redirects": [
+		{
+			"source": "/:path(.*)",
+			"destination": "https://thwiki.cc/:path*",
+      "permanent": true
+		}
+	]
+}
